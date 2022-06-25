@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run extraction.py
+web: streamlit run extraction.py
