@@ -1,1 +1,1 @@
-streamlit run extraction.py
+web: streamlit run extraction.py
