@@ -1,33 +1,61 @@
 import streamlit as st
-import numpy as np
 import pandas as pd
 import datetime
-import requests
-from bs4 import BeautifulSoup
 from selenium import webdriver
 from collections import Counter
 
 # importer variable globale
 from variables import *
-import os
 
-chrome_options = webdriver.ChromeOptions()
-chrome_options.add_argument("--headless")
-chrome_options.add_argument("--disable-dev-shm-usage")
-chrome_options.add_argument("--no-sandbox")
 # chargement du driver de Chrome
-chrome_options.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
-driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=chrome_options)
-# chargement de la page html du marmiton
-driver.get(mpa_url_banquealimentaire)
+driver = webdriver.Chrome()
+# chargement de la page html du site de la Banque alimentaire
+# driver.get(mpa_url_banquealimentaire)
 
 
-def main():
+def ex_pres_site():
+    driver.get(url_organisation)
+    accroche = driver.find_element_by_xpath(xpath_accroche).text
+
+    # Récupérer le contenu(titres, sous titres, text , images)en conservant la structure
+    noeuds_contenu = driver.find_elements_by_xpath('//div[@property="schema:text"]//*')
+    text = []
+    h2_list = []
+    images = []
+    for n in noeuds_contenu:
+        if n.tag_name == "h2":
+            h2_list.append(n.text)
+            text.append('')
+        elif n.tag_name=="p":
+            text[-1] += n.text+"\n"
+        elif n.tag_name=='img':
+            text[-1] += "<image>"
+            images.append(n.get_attribute("src"))
+        elif n.tag_name=="h3":
+            text[-1] += "##### "+n.text+"\n"
+    driver.close()
+
+    return accroche,h2_list,text,images
+
+def ex_processus():
+    driver.get(url_processus)
+    noeuds_contenu = driver.find_elements_by_xpath('//section[@id="scrollNav-2"]//*')
+    text = []
+    h3_list = []
+    for n in noeuds_contenu:
+        if n.tag_name=="h3":
+            text.append('')
+            h3_list.append(n.text)
+        elif n.tag_name=="p" or n.tag_name=="li":
+            text[-1] += n.text + "\n"
+    driver.close()
+    return h3_list,text
+
+
+
+def ex_articles():
     # création de l'interface initiale
-    st.sidebar.image("https://www.marciatack.fr/wp-content/uploads/2015/06/lutte-contre-la-faim1.jpg")
-    st.sidebar.title("Aide alimentaire")
-    asso = st.sidebar.selectbox("Choisir l'association qui vous intéresse: ", ["Banque alimentaire", "Action contre la faim"])
-    requete = st.text_input("Entrez votre requête: ")
+    requete = st.sidebar.text_input("Entrez votre requête: ")
 
     # procéder la requête
 
@@ -36,25 +64,20 @@ def main():
     bar = st.progress(0)
 
     if requete:
-        if asso == "Banque alimentaire":
-            request(requete)
-            df = get_results(placeholder, bar)
-            if df is not None:
-                # aller à la page suivante s'il elle existe et continue de parcourir
+        request(requete)
+        df = get_results(placeholder, bar)
+        if df is not None:
+            # aller à la page suivante s'il elle existe et continue de parcourir
+            suivante = next_page()
+            while suivante:
+                driver.get(suivante)
+                df = pd.concat([df, get_results(placeholder, bar)])
                 suivante = next_page()
-                while suivante:
-                    driver.get(suivante)
-                    df = pd.concat([df, get_results(placeholder, bar)])
-                    suivante = next_page()
-                df.set_index(["id"], inplace=True)
-                st.success("Résultats trouvés: ")
-                st.dataframe(df)
-                graphique(list(df["date"]))
-                bar.progress(100)
-
-            else:
-                # message d'une recherchce sans résultats pertinentsmessage d'une recherchce sans résultats pertinents
-                st.warning("Désolée, aucun résultat pertinent a été trouvé.")
+            df.set_index(["id"], inplace=True)
+            st.success("Résultats trouvés: ")
+            st.dataframe(df)
+            graphique(list(df["date"]))
+            bar.progress(100)
         else:
             st.warning("Le site choisi n'est pas encore supporté. Merci de choisir l'autre. ")
 
@@ -124,7 +147,7 @@ def graphique(liste_dates: list):
     for i in range(len(liste_dates)):
         # liste_dates[i]=liste_dates[i][:4]
         cnt[liste_dates[i][:4]] += 1
-    char_data=pd.DataFrame(dict(cnt),index=["nombre_pub"]).T
+    char_data = pd.DataFrame(dict(cnt), index=["nombre_pub"]).T
     st.line_chart(char_data)
 
 
@@ -137,4 +160,4 @@ def std_date(a_date):
 
 
 if __name__ == '__main__':
-    main()
+    ex_articles()
