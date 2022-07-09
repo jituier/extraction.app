@@ -1,7 +1,9 @@
 import streamlit as st
+from selenium.webdriver.common.by import By
+
 from app import driver
 from outils.fonctions import get_resume_all_pages
-from variables import *
+from outils.variables import *
 import json
 import streamlit.components.v1 as components
 
@@ -21,7 +23,7 @@ def initiation():
 
 def _ex_processus():
     driver.get(url_processus)
-    noeuds_contenu = driver.find_elements_by_xpath(xpath_processus_noeud_contenu)
+    noeuds_contenu = driver.find_elements(By.XPATH,xpath_processus_noeud_contenu)
     text = []
     section_titre = []
     for n in noeuds_contenu:
@@ -50,9 +52,9 @@ def _ex_evenements():
     bar = st.progress(0)
 
     # sélectionner l'option "événement"
-    driver.find_element_by_xpath(xapth_option_articles).click()
+    driver.find_element(By.XPATH, xapth_option_articles).click()
     # cliquer le button de soumettre
-    driver.find_element_by_id("edit-submit").submit()
+    driver.find_element(By.ID, "edit-submit").submit()
 
     ret = get_resume_all_pages()
 

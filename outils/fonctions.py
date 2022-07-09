@@ -2,16 +2,16 @@ import datetime
 
 import streamlit as st
 from selenium.common.exceptions import NoSuchElementException
+from selenium.webdriver.common.by import By
 
 from app import driver
-from variables import *
+from outils.variables import *
 
 
 def next_page():
     try:
-        # page_nav_bar = driver.find_element_by_xpath(f"//nav/ul[@class='{mpa_page_nav_class}']")
-        next_page_element = driver.find_element_by_xpath(f"//li[@class='{mpa_next_page_class}']")
-        next_page_url = next_page_element.find_element_by_xpath(xapth_next_page_url).get_attribute('href')
+        next_page_element = driver.find_element(By.XPATH, f"//li[@class='{mpa_next_page_class}']")
+        next_page_url = next_page_element.find_element(By.XPATH, xapth_next_page_url).get_attribute('href')
         return next_page_url
     except NoSuchElementException:
         return None
@@ -27,21 +27,21 @@ def std_date(a_date):
 
 def _always_get_element_by_xpath(node, xpath: str):
     try:
-        return node.find_element_by_xpath(xpath)
+        return node.find_element(By.XPATH, xpath)
     except:
         return ''
 
 
 def _always_get_element_by_class_name(node, class_name):
     try:
-        return node.find_element_by_class_name(class_name)
+        return node.find_element_by(By.CLASS_NAME, class_name)
     except:
         return ''
 
 
 def _get_resume_unit():
     ret = []
-    articles_liste = driver.find_elements_by_class_name(class_article_liste)
+    articles_liste = driver.find_elements(By.CLASS_NAME, class_article_liste)
     for node in articles_liste:
 
         image = _always_get_element_by_class_name(node, class_image)
@@ -77,7 +77,7 @@ def get_resume_all_pages():
     """ renvoie une liste de tuples (image, date, titre, url, desc, categorie)"""
     # compter le nb de pages
     try:
-        nb_page = int(driver.find_element_by_xpath(xpath_last_page).text)
+        nb_page = int(driver.find_element(By.XPATH, xpath_last_page).text)
     except:
         nb_page = 1
 

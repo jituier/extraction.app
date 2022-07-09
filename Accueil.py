@@ -1,7 +1,5 @@
 import streamlit as st
-from variables import *
-from urllib import request
-from bs4 import BeautifulSoup
+from outils.variables import *
 
 
 def initiation():
