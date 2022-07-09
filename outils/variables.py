@@ -2,7 +2,7 @@
 url_organisation="https://www.banquealimentaire.org/notre-organisation"
 url_processus = "https://www.banquealimentaire.org/trouver-de-laide"
 url_la_une = "https://www.banquealimentaire.org/les-actualites-nationales-4"
-
+url_banquealimentaires = "https://www.banquealimentaire.org"
 # les classes
 class_accroche="field field--name-field-text-teaser field--type-string-long field--label-visually_hidden field__items"
 class_article_liste="entity-list-item"

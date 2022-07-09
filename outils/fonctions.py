@@ -32,21 +32,15 @@ def _always_get_element_by_xpath(node, xpath: str):
         return ''
 
 
-def _always_get_element_by_class_name(node, class_name):
-    try:
-        return node.find_element_by(By.CLASS_NAME, class_name)
-    except:
-        return ''
-
-
 def _get_resume_unit():
     ret = []
     articles_liste = driver.find_elements(By.CLASS_NAME, class_article_liste)
     for node in articles_liste:
 
-        image = _always_get_element_by_class_name(node, class_image)
+        image = _always_get_element_by_xpath(node, "div//img")
         if image:
             image = image.get_attribute("src")
+
 
         date = _always_get_element_by_xpath(node, xpath_date)
         if date:

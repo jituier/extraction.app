@@ -85,7 +85,6 @@ def evenements():
         event["text"] = {"headline": f"<a href='{article_url}'>{titre}</a>", "text": desc}
         json_dict["events"].append(event)
     jsondata = json.dumps(json_dict, indent=4, separators=(',', ': '))
-
     # créer timeline chart avec timelinejs3
     htmlcode = """
     <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
