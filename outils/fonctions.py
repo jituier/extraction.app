@@ -48,7 +48,7 @@ def _get_resume_unit():
         if image:
             image = image.get_attribute("src")
 
-        date = _always_get_element_by_xpath(node,xpath_date)
+        date = _always_get_element_by_xpath(node, xpath_date)
         if date:
             date = date.text
             date = std_date(date)
@@ -59,18 +59,15 @@ def _get_resume_unit():
 
         url = titre_object
         if url:
-
             url = url.get_attribute("href")
 
-        desc = _always_get_element_by_xpath(node,xpath_desc)
+        desc = _always_get_element_by_xpath(node, xpath_desc)
         if desc:
             desc = desc.text
 
-        categorie = _always_get_element_by_xpath(node,xpath_categorie)
+        categorie = _always_get_element_by_xpath(node, xpath_categorie)
         if categorie:
             categorie = categorie.text
-
-
 
         ret.append((image, date, titre, url, desc, categorie))
     return ret

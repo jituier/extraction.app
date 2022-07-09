@@ -19,7 +19,6 @@ def initiation():
     st.sidebar.image("img/image_tete.jpg")
 
 
-
 def _ex_processus():
     driver.get(url_processus)
     noeuds_contenu = driver.find_elements_by_xpath(xpath_processus_noeud_contenu)
@@ -59,6 +58,7 @@ def _ex_evenements():
 
     return ret
 
+
 def evenements():
     resumes = _ex_evenements()
 
@@ -93,13 +93,14 @@ def evenements():
         var additionalOptions = {
             start_at_end: false, is_embed:true,
         }
-        var timeline_json = """+jsondata+""";
+        var timeline_json = """ + jsondata + """;
         timeline = new TL.Timeline('timeline-embed', timeline_json, additionalOptions);
     </script>
     """
 
     # afficher sur le site
     components.html(htmlcode, height=800)
+
 
 if __name__ == "__main__":
     initiation()

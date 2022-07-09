@@ -4,6 +4,7 @@ from outils.fonctions import get_resume_all_pages
 import json
 import streamlit.components.v1 as components
 
+
 def initiation():
     """
     créer des composants du site
@@ -33,7 +34,7 @@ def ex_offre():
     return resume_liste
 
 
-def offre_par_cat(target:str):
+def offre_par_cat(target: str):
     resume_liste = ex_offre()
     # créer le json
     json_dict = {
