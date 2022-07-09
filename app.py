@@ -8,7 +8,7 @@ except:
     raise ImportWarning("This application needs version 1.10.0 or higher of Streamlit. Current version: "+v0)
 
 # chargement du driver de Chrome
-driver = webdriver.Chrome()
+driver = webdriver.Chrome('chromedriver.exe')
 
 
 if __name__ == '__main__':
