@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="29d77871-6103-46f5-bdb6-54d01d0ee83d" name="变更" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outils/fonctions.py" beforeDir="false" afterPath="$PROJECT_DIR$/outils/fonctions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outils/graphique.py" beforeDir="false" afterPath="$PROJECT_DIR$/outils/graphique.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/1__J'ai besoin d'aide.py" beforePathEscaped="$PROJECT_DIR$/pages/1_🥐_J'ai besoin d'aide.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/1__J'ai besoin d'aide.py" afterPathEscaped="$PROJECT_DIR$/pages/1_🥐_J'ai besoin d'aide.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/2__Je veux aider.py" beforePathEscaped="$PROJECT_DIR$/pages/2_🌍_Je veux aider.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/2__Je veux aider.py" afterPathEscaped="$PROJECT_DIR$/pages/2_🌍_Je veux aider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
