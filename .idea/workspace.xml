@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="29d77871-6103-46f5-bdb6-54d01d0ee83d" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/outils/fonctions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/extraction.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/extraction.app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accueil.py" beforeDir="false" afterPath="$PROJECT_DIR$/Accueil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/1334832206968026" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/134622145" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/134622145.js.下载" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/2e0ECe_wENmYNXkFMDHBwh3TUBgyRq0aRRe7uMQBPBo.js.下载" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/Logo_EFBF-FEBA_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/MI-6bbZnWjM.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/activityi.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/ad_status.js.下载" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/addthis_widget.js.下载" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/analytics.js.下载" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/base.js.下载" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/bat.js.下载" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/beneficiaires banques alimentaires.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/cast_sender.js(1).下载" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/cast_sender.js.下载" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/clarity.js.下载" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/claude-baland-bapif-200528-130014-_CD13170.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/couveRA2020_inst.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/css_-z3u2bx37O_-OKcqmyqUBgBFLGtvtfNibQuPlLc6_Rs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/css_9VHtzytLT7oJhv5XM-2E24rD5fLzL-1seCDbLWdLyBU.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/dc_pre=CLfnq5qh4_gCFREFBgAdyjYJ5g" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/distribution banques alimentaires_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/embed.js.下载" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/eu_cookie_compliance.js.下载" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/f(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/f(2).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/f.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/fbevents.js.下载" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/fetch-polyfill.js.下载" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/gtm.js.下载" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/ideas-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/js_KHix7UuKBX88uVnYGTh222nrD1x8iFXpguYLgrhJk7c.js.下载" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/les banques alimentaires en france.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/matomo.js.下载" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/moatframe.js.下载" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/remote.js.下载" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/sh.f48a1a04fe8dbf021b4cda1d.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/une histoire de partage banques alimentaires_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/www-embed-player.js.下载" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Organisation - Banques Alimentaires_files/www-player.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/recours_a_l_aide.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/recours_a_l_aide.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/situation_financiere.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/situation_financiere.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/situation_sociale.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/situation_sociale.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outils/extraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outils/graphique.py" beforeDir="false" afterPath="$PROJECT_DIR$/outils/graphique.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/1__J'ai besoin d'aide.py" beforePathEscaped="$PROJECT_DIR$/pages/1_🥐_J'ai besoin d'aide.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/1__J'ai besoin d'aide.py" afterPathEscaped="$PROJECT_DIR$/pages/1_🥐_J'ai besoin d'aide.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/2__Je veux aider.py" beforePathEscaped="$PROJECT_DIR$/pages/2_🌍_Je veux aider.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/2__Je veux aider.py" afterPathEscaped="$PROJECT_DIR$/pages/2_🌍_Je veux aider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/variables.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BYn95UCVmFJSPxjafTtooOTQi3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/outils/fonctions.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zcqz1\Documents\MASTER\plurital\S4\WEB\extraction.app" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.test (1)">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="extraction.app" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/outils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\zcqz1\Documents\MASTER\plurital\S4\WEB\extraction.app\app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="graphique" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="extraction.app" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/outils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/outils/graphique.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="extraction.app" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/outils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/outils/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="extraction.app" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/outils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\zcqz1\Documents\MASTER\plurital\S4\WEB\extraction.app\outils\test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="extraction.app" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/outils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/outils/test2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.test2" />
+        <item itemvalue="Python.testçclass" />
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.graphique" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="29d77871-6103-46f5-bdb6-54d01d0ee83d" name="变更" comment="" />
+      <created>1657091735072</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657091735072</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
