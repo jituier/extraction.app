@@ -6,7 +6,7 @@ covid-19. Les données sont issues du site officiel de l'association [Banque ali
 
 
 ### Environnement du développement
-        pipenv --python 3.7
+        pipenv --python 3.8
 ### Lancement de l'applicaiton
 Se déplacer dans le dossier extraction.app, et lancer la commande suivante:
         
